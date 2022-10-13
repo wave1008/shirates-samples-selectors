@@ -15,9 +15,9 @@
 
   "profiles": [
     {
-      "profileName": "Android *",
+      "profileName": "Android 12",
       "capabilities": {
-        "platformVersion": "*"
+        "platformVersion": "12"
       }
     }
   ]
