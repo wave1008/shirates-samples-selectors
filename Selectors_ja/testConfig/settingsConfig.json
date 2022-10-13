@@ -1,0 +1,24 @@
+{
+  "testConfigName": "settingsConfig",
+
+  "appIconName": "設定",
+  "packageOrBundleId": "com.android.settings",
+  "startupPackageOrBundleId": "com.android.settings",
+  "startupActivity": "com.android.settings.Settings",
+
+  "capabilities": {
+    "automationName": "UiAutomator2",
+    "platformName": "Android",
+    "language": "ja",
+    "locale": "JP"
+  },
+
+  "profiles": [
+    {
+      "profileName": "Android *",
+      "capabilities": {
+        "platformVersion": "*"
+      }
+    }
+  ]
+}
