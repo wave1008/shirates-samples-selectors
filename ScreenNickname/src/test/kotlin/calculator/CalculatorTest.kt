@@ -1,5 +1,6 @@
 package calculator
 
+import org.junit.jupiter.api.Order
 import org.junit.jupiter.api.Test
 import shirates.core.driver.commandextension.*
 import shirates.core.testcode.UITest
@@ -7,6 +8,7 @@ import shirates.core.testcode.UITest
 class CalculatorTest : UITest() {
 
     @Test
+    @Order(10)
     fun withoutNickname() {
 
         scenario {
@@ -70,6 +72,7 @@ class CalculatorTest : UITest() {
     }
 
     @Test
+    @Order(20)
     fun withNickname() {
 
         scenario {
