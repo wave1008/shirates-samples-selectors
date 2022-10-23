@@ -13,7 +13,9 @@ class SelectTest : UITest() {
 
         scenario {
             case(1) {
-                action {
+                condition {
+                    it.restartApp()
+                }.action {
                     it.select("ネットワークとインターネット")
                 }.expectation {
                     it.textIs("ネットワークとインターネット")
